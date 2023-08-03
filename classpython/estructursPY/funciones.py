@@ -10,7 +10,7 @@ def heloword():
 def suma(a,b):
     print(f"Esta funcion recibe do parametros, estos son 'a={a}' y 'b?{b}' y al final se suman, porque esta funcion es para suma: {a+b}")
 
-def multiplesParametros(*a, otro="Fin"):
+def multiplesParametros(*a, otro=None):
     print("Estos son los elementos que recibió la funcion:")
     for i in a:
         print("- ", i)
